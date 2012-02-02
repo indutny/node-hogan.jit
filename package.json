@@ -1,0 +1,14 @@
+{
+  "name": "hogan.jit",
+  "version": "0.0.1",
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "main": "./lib/hogan.jit",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "0.10.x"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd --growl --reporter spec test/*-test.js"
+  }
+}
